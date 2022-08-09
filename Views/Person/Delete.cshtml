@@ -1,0 +1,47 @@
+﻿@model MissingPeopleDatabase.Models.Person
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+
+<form asp-action="Delete">
+    <div class="col-4">
+
+        <div class="form-group">
+            <label asp-for="Id" class="control-label"></label>
+            <input asp-for="Id" class="form-control" readonly />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="FirstName" class="control-label"></label>
+            <input asp-for="FirstName" class="form-control" readonly />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="LastName" class="control-label"></label>
+            <input asp-for="LastName" class="form-control" readonly />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SexId" class="control-label"></label>
+            <input asp-for="@Model.Sexes.Name" class="form-control" readonly />
+        </div>
+
+
+        <div class="form-group btn-group">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <a class="btn btn-secondary" asp-action="index"
+               asp-route-pg="@TempData.Peek("CurrentPage")">Back</a>
+        </div>
+    </div>
+</form>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+}
