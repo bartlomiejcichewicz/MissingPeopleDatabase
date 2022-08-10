@@ -15,14 +15,14 @@ using System.IO;
 namespace MissingPeopleDatabase.Controllers
 {
     [Authorize]
-    public class PersonControler : Controller
+    public class PersonController : Controller
     {
         private readonly IWebHostEnvironment _webHost;
         private readonly ICity _cityRepo;
         private readonly IStatus _statusRepo;        
         private readonly ISex _sexRepo;
         private readonly IPerson _personRepo;
-        public PersonControler(IPerson personRepo,ISex sexRepo, ICity cityRepo, IStatus statusRepo, IWebHostEnvironment webHost)
+        public PersonController(IPerson personRepo,ISex sexRepo, ICity cityRepo, IStatus statusRepo, IWebHostEnvironment webHost)
         {
             _webHost = webHost;
             _personRepo = personRepo;

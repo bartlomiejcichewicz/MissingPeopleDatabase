@@ -24,7 +24,7 @@
         <header>
             <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
                 <div class="container">
-                    <a class="navbar-brand @menuTextColor" asp-area="" asp-controller="Home" asp-action="Index">InventoryBeginners</a>
+                    <a class="navbar-brand @menuTextColor" asp-area="" asp-controller="Home" asp-action="Index">Missing People Database</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -39,18 +39,13 @@
 
                                 <li class="dropdown nav-item pr-2">
                                     <a class="nav-link dropdown-toggle @menuTextColor" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                        Main Menu
+                                        Admin Panel
                                     </a>
 
                                     <ul class="dropdown-menu" style="background:linear-gradient(to right,#28340B,#197696);">
                                         <li class="nav-item">
                                             <a class="nav-link @menuTextColor" asp-area="" asp-controller="Sex" asp-action="Index">Sexes</a>
                                         </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link @menuTextColor" asp-area="" asp-controller="Person" asp-action="Index">Persons</a>
-                                        </li>
-
                                         <li class="nav-item">
                                             <a class="nav-link @menuTextColor" asp-area="" asp-controller="Status" asp-action="Index">Statuses</a>
                                         </li>
@@ -65,7 +60,9 @@
 
 
                             }
-
+                            <li class="nav-item">
+                                <a class="nav-link @menuTextColor" asp-area="" asp-controller="Person" asp-action="Index">Database</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link @menuTextColor" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                             </li>
@@ -138,7 +135,7 @@
 
     <footer class="border-top footer text-muted" style="background:linear-gradient(to left,#28340B,#197696);">
         <div class="container @menuTextColor ">
-            &copy; 2021 - InventoryBeginners - <a asp-area="" asp-controller="Home" asp-action="Privacy" class="@menuTextColor">Privacy</a>
+            &copy; 2022 - Bartłomiej Cichewicz - <a asp-area="" asp-controller="Home" asp-action="Privacy" class="@menuTextColor">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
