@@ -7614,11 +7614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rozrywka\\Desktop\\MPD\\MissingPeopleDatabase.csproj",
+      "projectUniqueName": "C:\\Users\\Rozrywka\\Desktop\\MissingPeopleDatabase-main\\MissingPeopleDatabase.csproj",
       "projectName": "MissingPeopleDatabase",
-      "projectPath": "C:\\Users\\Rozrywka\\Desktop\\MPD\\MissingPeopleDatabase.csproj",
+      "projectPath": "C:\\Users\\Rozrywka\\Desktop\\MissingPeopleDatabase-main\\MissingPeopleDatabase.csproj",
       "packagesPath": "C:\\Users\\Rozrywka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rozrywka\\Desktop\\MPD\\obj\\",
+      "outputPath": "C:\\Users\\Rozrywka\\Desktop\\MissingPeopleDatabase-main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rozrywka\\AppData\\Roaming\\NuGet\\NuGet.Config",

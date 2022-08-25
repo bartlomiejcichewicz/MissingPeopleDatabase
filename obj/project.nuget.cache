@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DiLzhGe4HUdyQOjrKgGuPK+5gg5cab4gdHin3x3eSx4WL0KI+HG99rSWkTYZ1ehGKJ5imq6tuz7ueCV7bX7N2w==",
+  "dgSpecHash": "Jkt/e1Fpc0BQXgUjV6PRnGB4CK4Rb5rCqew34p+noa/FEHE1w+XLfxI1NB+4w55vm5tWHCK/rrHfb/FtX1yhFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rozrywka\\Desktop\\MPD\\MissingPeopleDatabase.csproj",
+  "projectFilePath": "C:\\Users\\Rozrywka\\Desktop\\MissingPeopleDatabase-main\\MissingPeopleDatabase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rozrywka\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Rozrywka\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.9\\microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512",

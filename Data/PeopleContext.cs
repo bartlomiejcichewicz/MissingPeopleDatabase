@@ -17,5 +17,6 @@ namespace MissingPeopleDatabase.Data
         public virtual DbSet<City> Cities { get; set; }
         public virtual DbSet<Status> Statuses { get; set; }
         public virtual DbSet<Person> Persons { get; set; }
+        public DbSet<MissingPeopleDatabase.Models.UserRole> UserRole { get; set; }
     }
 }
